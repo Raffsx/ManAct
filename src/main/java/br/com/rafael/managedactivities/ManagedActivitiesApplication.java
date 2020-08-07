@@ -1,4 +1,4 @@
-package br.com.trier.managedactivities;
+package br.com.rafael.managedactivities;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,15 +1,11 @@
-package br.com.trier.managedactivities.service;
+package br.com.rafael.managedactivities.service;
 
-import br.com.trier.managedactivities.Dto.TypeDto;
-import br.com.trier.managedactivities.entity.Type;
-import br.com.trier.managedactivities.repository.TypeRepository;
-import br.com.trier.managedactivities.mapper.Mappable;
+import br.com.rafael.managedactivities.Dto.TypeDto;
+import br.com.rafael.managedactivities.entity.Type;
+import br.com.rafael.managedactivities.repository.TypeRepository;
+import br.com.rafael.managedactivities.mapper.Mappable;
 import org.modelmapper.ModelMapper;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package br.com.trier.managedactivities.mapper;
+package br.com.rafael.managedactivities.mapper;
 
 import org.modelmapper.ModelMapper;
 

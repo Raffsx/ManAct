@@ -1,4 +1,4 @@
-package br.com.trier.managedactivities.util;
+package br.com.rafael.managedactivities.util;
 
 import java.time.Instant;
 import java.time.ZoneId;

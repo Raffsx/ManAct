@@ -1,7 +1,7 @@
-package br.com.trier.managedactivities.Dto;
+package br.com.rafael.managedactivities.Dto;
 
-import br.com.trier.managedactivities.entity.Situation;
-import br.com.trier.managedactivities.entity.Type;
+import br.com.rafael.managedactivities.entity.Situation;
+import br.com.rafael.managedactivities.entity.Type;
 import lombok.*;
 
 import java.util.UUID;

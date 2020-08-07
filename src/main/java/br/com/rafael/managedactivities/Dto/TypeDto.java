@@ -1,4 +1,4 @@
-package br.com.trier.managedactivities.Dto;
+package br.com.rafael.managedactivities.Dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,15 +15,12 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class SituationDto {
+public class TypeDto {
 
-	@Id
-	@GeneratedValue(generator = "system-uuid", strategy = GenerationType.AUTO)
-	@Column(columnDefinition = "uuid", updatable = false)
+	private static final long serialVersionUID = 1359561820576023113L;
+
+
 	private UUID uuid;
-
-	@NotNull(message = "É necessário nomear a situação")
-	@Column(name = "name", nullable = false)
 	private String name;
 
 }

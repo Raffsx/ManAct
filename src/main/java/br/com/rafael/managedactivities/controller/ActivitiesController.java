@@ -1,9 +1,8 @@
-package br.com.trier.managedactivities.controller;
+package br.com.rafael.managedactivities.controller;
 
-import br.com.trier.managedactivities.Dto.ActivitiesDto;
-import br.com.trier.managedactivities.Dto.SituationDto;
-import br.com.trier.managedactivities.entity.Activities;
-import br.com.trier.managedactivities.service.ActivitiesService;
+import br.com.rafael.managedactivities.Dto.ActivitiesDto;
+import br.com.rafael.managedactivities.entity.Activities;
+import br.com.rafael.managedactivities.service.ActivitiesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

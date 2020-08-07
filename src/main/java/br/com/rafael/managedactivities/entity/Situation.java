@@ -1,4 +1,4 @@
-package br.com.trier.managedactivities.entity;
+package br.com.rafael.managedactivities.entity;
 
 import lombok.Getter;
 import lombok.Setter;

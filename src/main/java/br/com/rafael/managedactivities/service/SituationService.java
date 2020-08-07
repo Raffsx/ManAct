@@ -1,15 +1,11 @@
-package br.com.trier.managedactivities.service;
+package br.com.rafael.managedactivities.service;
 
-import br.com.trier.managedactivities.Dto.SituationDto;
-import br.com.trier.managedactivities.Dto.TypeDto;
-import br.com.trier.managedactivities.entity.Situation;
-import br.com.trier.managedactivities.entity.Type;
-import br.com.trier.managedactivities.mapper.Mappable;
-import br.com.trier.managedactivities.repository.SituationRepository;
+import br.com.rafael.managedactivities.Dto.SituationDto;
+import br.com.rafael.managedactivities.entity.Situation;
+import br.com.rafael.managedactivities.repository.SituationRepository;
+import br.com.rafael.managedactivities.mapper.Mappable;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,11 +1,9 @@
-package br.com.trier.managedactivities.entity;
+package br.com.rafael.managedactivities.entity;
 
 import lombok.*;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.List;
 import java.util.UUID;
 
 @Getter
